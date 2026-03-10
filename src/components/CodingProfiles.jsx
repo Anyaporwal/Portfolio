@@ -3,40 +3,48 @@ import {
   SiLeetcode,
   SiHackerrank,
   SiCodeforces,
-  SiCodechef
+  SiCodechef,
+  SiGeeksforgeeks
 } from 'react-icons/si';
+
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const profiles = [
   {
     name: 'GitHub',
-    href: 'https://github.com/your-username',
+    href: 'https://github.com/Anyaporwal',
     icon: SiGithub,
     color: 'from-slate-100 to-slate-300'
   },
   {
     name: 'LeetCode',
-    href: 'https://leetcode.com/your-username',
+    href: 'https://leetcode.com/Anyanp',
     icon: SiLeetcode,
     color: 'from-amber-400 to-amber-500'
   },
   {
     name: 'Codeforces',
-    href: 'https://codeforces.com/profile/your-username',
+    href: 'https://codeforces.com/profile/Anyaporwal',
     icon: SiCodeforces,
     color: 'from-sky-400 to-sky-500'
   },
   {
     name: 'HackerRank',
-    href: 'https://www.hackerrank.com/your-username',
+    href: 'https://www.hackerrank.com/porwalaa',
     icon: SiHackerrank,
     color: 'from-emerald-400 to-emerald-500'
   },
   {
     name: 'CodeChef',
-    href: 'https://www.codechef.com/users/your-username',
+    href: 'https://www.codechef.com/users/anyaporwal18',
     icon: SiCodechef,
     color: 'from-orange-400 to-orange-500'
+  },
+  {
+    name: 'GeeksforGeeks',
+    href: 'https://www.geeksforgeeks.org/profile/ap5vm',
+    icon: SiGeeksforgeeks,
+    color: 'from-green-400 to-green-500'
   }
 ];
 
@@ -62,22 +70,24 @@ export function CodingProfiles() {
               </h2>
             </div>
           </div>
+
           <p className="max-w-sm text-xs text-slate-500 dark:text-slate-400">
             Explore my activity across coding platforms — from open source
             contributions to algorithm practice.
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">          
           {profiles.map((profile) => {
             const Icon = profile.icon;
+
             return (
               <a
                 key={profile.name}
                 href={profile.href}
                 target="_blank"
                 rel="noreferrer"
-                className="tilt-card group flex items-center gap-3 rounded-2xl border border-slate-200 bg-white/90 px-4 py-3 text-xs text-slate-700 shadow-md shadow-slate-200/80 transition hover:border-accent hover:shadow-glow-accent dark:border-slate-800 dark:bg-slate-950/70 dark:text-slate-200 dark:shadow-slate-950/70"
+                className="tilt-card group flex items-center gap-2 rounded-xl border border-slate-200 bg-white/90 px-3 py-2 text-xs text-slate-700 shadow-md shadow-slate-200/80 transition hover:border-accent hover:shadow-glow-accent dark:border-slate-800 dark:bg-slate-950/70 dark:text-slate-200 dark:shadow-slate-950/70"
               >
                 <div className="icon-pop relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-900/80">
                   <div
@@ -85,6 +95,7 @@ export function CodingProfiles() {
                   />
                   <Icon className="relative h-5 w-5 text-slate-950" />
                 </div>
+
                 <div>
                   <p className="text-[13px] font-semibold text-slate-50">
                     {profile.name}
@@ -101,4 +112,3 @@ export function CodingProfiles() {
     </section>
   );
 }
-

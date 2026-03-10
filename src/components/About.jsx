@@ -25,7 +25,6 @@ export function About() {
         </div>
 
 {/* About Content Cards */}
-{/* About Content Cards */}
 <div className="mt-6 grid gap-4">
 
   <div className="rounded-3xl border border-slate-200 bg-white/90 p-5 shadow-lg shadow-slate-200/80 dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70">

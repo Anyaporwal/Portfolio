@@ -33,10 +33,10 @@ export function TechStack() {
 
         {/* Heading */}
         <div className="mb-8 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="h-7 w-1 rounded-full bg-gradient-to-b from-green-400 to-emerald-600" />
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-green-500">
+       <div className="mb-6 flex items-center gap-3">
+          <div className="h-8 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent-soft">
                 Tech Stack
               </p>
               <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
