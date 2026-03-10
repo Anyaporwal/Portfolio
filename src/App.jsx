@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { About } from './components/About';
+import { About } from './components/About_Education';
 import { TechStack } from './components/TechStack';
 import { CodingProfiles } from './components/CodingProfiles';
 import { Projects } from './components/Projects';
-import { Education } from './components/Education';
 import { Extras } from './components/Extras';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
@@ -66,7 +65,6 @@ function App() {
           <TechStack />
           <CodingProfiles />
           <Projects />
-          <Education />
           <Extras />
           <Contact />
         </main>
