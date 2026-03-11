@@ -28,14 +28,11 @@ export function Navbar({ theme, onToggleTheme }) {
           className="group flex items-center gap-2"
         >
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-accent to-accent-soft text-xs font-semibold tracking-wide text-slate-50 shadow-glow-accent group-hover:scale-105 group-hover:shadow-glow-accent transition-transform">
-            YN
+            AP
           </div>
           <div className="text-left">
             <p className="text-sm font-semibold text-slate-100">
               Anya Porwal
-            </p>
-            <p className="text-[11px] text-slate-400">
-              Frontend Developer
             </p>
           </div>
         </button>
@@ -78,20 +75,12 @@ export function Navbar({ theme, onToggleTheme }) {
                 <FiGithub className="h-4 w-4" />
               </a>
               <a
-                href="https://linkedin.com/in/your-linkedin"
+                href="https://linkedin.com/in/Anyaporwal"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-pop rounded-full p-1.5 transition hover:bg-slate-100 hover:text-accent dark:hover:bg-slate-800"
               >
                 <FiLinkedin className="h-4 w-4" />
-              </a>
-              <a
-                href="https://twitter.com/your-twitter"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-pop rounded-full p-1.5 transition hover:bg-slate-100 hover:text-accent dark:hover:bg-slate-800"
-              >
-                <FiTwitter className="h-4 w-4" />
               </a>
             </div>
           </div>
