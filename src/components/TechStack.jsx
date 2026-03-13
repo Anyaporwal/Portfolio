@@ -45,9 +45,6 @@ export function TechStack() {
             </div>
           </div>
 
-          <p className="max-w-xs text-xs text-slate-500 dark:text-slate-400">
-            Tools and technologies I use to build modern applications.
-          </p>
         </div>
 
         {/* Skills Grid */}

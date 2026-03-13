@@ -22,17 +22,17 @@ const profiles = [
     icon: SiLeetcode,
     color: 'from-amber-400 to-amber-500'
   },
-  {
-    name: 'Codeforces',
-    href: 'https://codeforces.com/profile/Anyaporwal',
-    icon: SiCodeforces,
-    color: 'from-sky-400 to-sky-500'
-  },
-  {
+    {
     name: 'HackerRank',
     href: 'https://www.hackerrank.com/porwalaa',
     icon: SiHackerrank,
     color: 'from-emerald-400 to-emerald-500'
+  },
+    {
+    name: 'GeeksforGeeks',
+    href: 'https://www.geeksforgeeks.org/profile/ap5vm',
+    icon: SiGeeksforgeeks,
+    color: 'from-green-400 to-green-500'
   },
   {
     name: 'CodeChef',
@@ -41,10 +41,10 @@ const profiles = [
     color: 'from-orange-400 to-orange-500'
   },
   {
-    name: 'GeeksforGeeks',
-    href: 'https://www.geeksforgeeks.org/profile/ap5vm',
-    icon: SiGeeksforgeeks,
-    color: 'from-green-400 to-green-500'
+    name: 'Codeforces',
+    href: 'https://codeforces.com/profile/Anyaporwal',
+    icon: SiCodeforces,
+    color: 'from-sky-400 to-sky-500'
   }
 ];
 
@@ -70,11 +70,6 @@ export function CodingProfiles() {
               </h2>
             </div>
           </div>
-
-          <p className="max-w-sm text-xs text-slate-500 dark:text-slate-400">
-            Explore my activity across coding platforms — from open source
-            contributions to algorithm practice.
-          </p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">          

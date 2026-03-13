@@ -44,7 +44,7 @@ export function Education() {
               HSC – Higher Secondary Certificate
             </p>
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              Jain International School, Nagpur • 2021 – 2023
+              Jain International School, Nagpur • 2023
             </p>
           </div>
 
@@ -54,7 +54,7 @@ export function Education() {
               SSC – Secondary School Certificate
             </p>
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              Bhavan's B.P Vidya Mandir (B.V.M Ashti), Nagpur • 2020 – 2021
+              Bhavan's B.P Vidya Mandir (B.V.M Ashti), Nagpur • 2021
             </p>
           </div>
         </div>

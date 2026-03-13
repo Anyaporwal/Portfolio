@@ -1,6 +1,6 @@
 import { FiGithub, FiLinkedin, FiMail, FiFileText } from 'react-icons/fi';
 import { useScrollReveal } from '../hooks/useScrollReveal';
-
+import resume from "./Anyaporwal_resume.pdf";
 export function Contact() {
   const { ref, isVisible } = useScrollReveal();
 
@@ -25,7 +25,7 @@ export function Contact() {
 
         <div className="grid gap-8 md:grid-cols-[3fr,2fr]">
           <form
-            action="https://formspree.io/f/your-form-id"
+            action="https://formspree.io/f/myknpekk"
             method="POST"
             className="space-y-4 rounded-3xl border border-slate-200 bg-white/90 p-4 shadow-lg shadow-slate-200/80 sm:p-6 dark:border-slate-800 dark:bg-slate-950/70 dark:shadow-slate-950/70"
           >
@@ -92,11 +92,6 @@ export function Contact() {
             >
               Send message
             </button>
-
-            <p className="text-[10px] text-slate-500">
-              This form uses Formspree. Replace the form ID in the action attribute
-              with your own.
-            </p>
           </form>
 
           <div className="space-y-4">
@@ -142,17 +137,14 @@ export function Contact() {
                 projects.
               </p>
               <a
-                href="/Anyaporwal-Resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-                className="icon-pop mt-3 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-[11px] font-medium text-slate-800 transition hover:border-accent hover:text-accent dark:border-slate-700 dark:bg-slate-900/80 dark:text-slate-100"
-              >
+              href={resume}
+              download="Anyaporwal_Resume.pdf"
+              className="icon-pop mt-3 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-[11px] font-medium text-slate-800 transition hover:border-accent hover:text-accent dark:border-slate-700 dark:bg-slate-900/80 dark:text-slate-100"
+            >
                 <FiFileText className="h-3.5 w-3.5" />
                 Download resume
               </a>
-              <p className="mt-2 text-[10px] text-slate-500">
-                Place your PDF in the public folder and update the filename.
-              </p>
+
             </div>
           </div>
         </div>
