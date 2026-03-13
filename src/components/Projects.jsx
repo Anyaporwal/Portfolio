@@ -45,10 +45,6 @@ export function Projects() {
             </div>
           </div>
 
-          <p className="max-w-sm text-xs text-slate-500 dark:text-slate-400">
-            Real-world projects demonstrating full-stack development, AI
-            integration, and scalable backend design.
-          </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
