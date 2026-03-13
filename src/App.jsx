@@ -45,17 +45,22 @@ function App() {
     <div className="relative min-h-screen bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-50">
       <div className="pointer-events-none fixed inset-0 -z-20 bg-[radial-gradient(circle_at_top,_rgba(99,102,241,0.18),transparent_55%),radial-gradient(circle_at_bottom,_rgba(244,114,182,0.14),transparent_55%)]" />
 
-      {/* AI-inspired cursor */}
-      <div
-        className={`cursor-dot fixed z-50 md:block ${cursorHidden ? 'cursor-dot--hidden' : ''} ${
-          cursorActive ? 'cursor-dot--active' : ''
-        } hidden`}
-        style={{
-          left: `${cursorPos.x}px`,
-          top: `${cursorPos.y}px`,
-          transition: 'transform 120ms ease-out, box-shadow 200ms ease-out, opacity 200ms ease-out'
-        }}
-      />
+    {/* AI-inspired cursor */}
+    <div
+      className={`cursor-dot fixed z-50 hidden md:block rounded-full 
+      bg-slate-900 dark:bg-white 
+      ${cursorHidden ? 'cursor-dot--hidden' : ''} 
+      ${cursorActive ? 'cursor-dot--active' : ''}`}
+      style={{
+        left: `${cursorPos.x}px`,
+        top: `${cursorPos.y}px`,
+        width: "10px",
+        height: "10px",
+        transform: "translate(-50%, -50%)",
+        transition:
+          "transform 120ms ease-out, box-shadow 200ms ease-out, opacity 200ms ease-out"
+      }}
+    />
 
       <div className="md:cursor-none">
         <Navbar theme={theme} onToggleTheme={toggleTheme} />

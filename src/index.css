@@ -106,3 +106,8 @@ body {
   transform: translateY(-3px) scale(1.05);
 }
 
+.cursor-dot{
+  pointer-events:none;
+  mix-blend-mode:difference;
+}
+
