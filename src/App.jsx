@@ -10,6 +10,7 @@ import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
 import { useTheme } from './hooks/useTheme';
 import { Education } from './components/Education';   // Separate Education component
+import {Accomplishments} from './components/Accomplishments';
 
 function App() {
   const { theme, toggleTheme } = useTheme();
@@ -62,8 +63,8 @@ function App() {
         <main className="space-y-4 pt-4">
           <Hero />
           <About />
-                    <Education />  {/* Education Section */}
-
+          <Education />
+          <Accomplishments />
           <TechStack />
           <CodingProfiles />
           <Projects />
