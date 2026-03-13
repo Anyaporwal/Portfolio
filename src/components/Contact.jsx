@@ -1,4 +1,4 @@
-import { FiGithub, FiLinkedin, FiMail, FiTwitter, FiFileText } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiFileText } from 'react-icons/fi';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 export function Contact() {
@@ -18,7 +18,7 @@ export function Contact() {
               Contact
             </p>
             <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-50 sm:text-2xl">
-              Let&apos;s build something together
+              Let's build something together
             </h2>
           </div>
         </div>
@@ -30,7 +30,7 @@ export function Contact() {
             className="space-y-4 rounded-3xl border border-slate-200 bg-white/90 p-4 shadow-lg shadow-slate-200/80 sm:p-6 dark:border-slate-800 dark:bg-slate-950/70 dark:shadow-slate-950/70"
           >
             <p className="text-xs text-slate-600 dark:text-slate-300">
-              Fill out the form and I&apos;ll get back to you as soon as possible.
+              Fill out the form and I'll get back to you as soon as possible.
               You can also reach me directly via email or LinkedIn.
             </p>
 
@@ -106,38 +106,29 @@ export function Contact() {
               </p>
               <div className="mt-3 space-y-2 text-xs text-slate-600 dark:text-slate-300">
                 <a
-                  href="mailto:youremail@example.com"
+                  href="mailto:anyaporwal18@gmail.com"
                   className="icon-pop flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 transition hover:border-accent hover:text-accent dark:border-slate-800 dark:bg-slate-900/80"
                 >
                   <FiMail className="h-3.5 w-3.5" />
-                  <span>youremail@example.com</span>
+                  <span>anyaporwal18@gmail.com</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/your-linkedin"
+                  href="https://linkedin.com/in/Anyaporwal"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-pop flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 transition hover:border-accent hover:text-accent dark:border-slate-800 dark:bg-slate-900/80"
                 >
                   <FiLinkedin className="h-3.5 w-3.5" />
-                  <span>linkedin.com/in/your-linkedin</span>
+                  <span>linkedin.com/in/Anyaporwal</span>
                 </a>
                 <a
-                  href="https://github.com/your-github"
+                  href="https://github.com/Anyaporwal"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-pop flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 transition hover:border-accent hover:text-accent dark:border-slate-800 dark:bg-slate-900/80"
                 >
                   <FiGithub className="h-3.5 w-3.5" />
-                  <span>github.com/your-github</span>
-                </a>
-                <a
-                  href="https://twitter.com/your-twitter"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-pop flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 transition hover:border-accent hover:text-accent dark:border-slate-800 dark:bg-slate-900/80"
-                >
-                  <FiTwitter className="h-3.5 w-3.5" />
-                  <span>@your-twitter</span>
+                  <span>github.com/Anyaporwal</span>
                 </a>
               </div>
             </div>
@@ -151,7 +142,7 @@ export function Contact() {
                 projects.
               </p>
               <a
-                href="/Your-Name-Resume.pdf"
+                href="/Anyaporwal-Resume.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-pop mt-3 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-[11px] font-medium text-slate-800 transition hover:border-accent hover:text-accent dark:border-slate-700 dark:bg-slate-900/80 dark:text-slate-100"
@@ -169,4 +160,3 @@ export function Contact() {
     </section>
   );
 }
-

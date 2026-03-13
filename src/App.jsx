@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { About } from './components/About_Education';
+import { About } from './components/About';
 import { TechStack } from './components/TechStack';
 import { CodingProfiles } from './components/CodingProfiles';
 import { Projects } from './components/Projects';
-import { Extras } from './components/Extras';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
 import { useTheme } from './hooks/useTheme';
+import { Education } from './components/Education';   // Separate Education component
 
 function App() {
   const { theme, toggleTheme } = useTheme();
@@ -62,10 +62,11 @@ function App() {
         <main className="space-y-4 pt-4">
           <Hero />
           <About />
+                    <Education />  {/* Education Section */}
+
           <TechStack />
           <CodingProfiles />
           <Projects />
-          <Extras />
           <Contact />
         </main>
 
