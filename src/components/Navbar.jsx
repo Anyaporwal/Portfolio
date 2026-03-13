@@ -6,7 +6,6 @@ const sections = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
   { id: 'education', label: 'Education' },
-  { id: 'tech', label: 'Tech' },
   { id: 'projects', label: 'Projects' },
   { id: 'contact', label: 'Contact' }
 ];
@@ -52,7 +51,7 @@ export function Navbar({ theme, onToggleTheme }) {
             AP
           </div>
           <div className="text-left">
-            <p className="text-sm font-semibold text-slate-100">
+            <p className="text-sm font-semibold text-slate-900 dark:text-slate-50">
               Anya Porwal
             </p>
           </div>

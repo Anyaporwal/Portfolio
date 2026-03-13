@@ -27,7 +27,7 @@ export function Hero() {
 
         {/* LEFT CONTENT */}
         <div className="flex-1 space-y-6 text-center lg:text-left">
-          <h1 className="text-4xl font-bold text-slate-900 sm:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl lg:text-5xl dark:text-white">
             <TypeAnimation
               sequence={[
                 "Hi, I'm Anya Porwal",
@@ -42,13 +42,13 @@ export function Hero() {
               speed={50}
               repeat={Infinity}
             />
-          </h1>
+        </h1>
 
-          <p className="max-w-xl text-slate-600 dark:text-slate-400 mx-auto lg:mx-0">
-            I enjoy building clean, responsive web applications and solving
-            real-world problems through technology. My focus is on creating
-            efficient and user-friendly digital experiences.
-          </p>
+         <p className="max-w-xl text-slate-600 dark:text-slate-400 mx-auto lg:mx-0">
+          Crafting responsive web applications with a focus on clean, efficient frontend development.  
+          Experienced in the MERN stack and bringing AI into projects to tackle real-world challenges.  
+          Always exploring new technologies, solving problems, and pushing code that makes a difference.
+        </p>
 
           <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
             <button
