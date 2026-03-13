@@ -43,7 +43,7 @@ export function About() {
 
           <div className="rounded-3xl border border-slate-200 bg-white/90 p-5 shadow-lg shadow-slate-200/80 dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70">
             <p className="text-sm text-slate-600 dark:text-slate-300">
-              With consistent practice in competitive programming and problem solving,
+              With consistent practice in problem solving and competitive programming,
               I focus on writing clean, efficient code and continuously improving my
               engineering skills.
             </p>
@@ -75,7 +75,7 @@ export function About() {
               Open to
             </p>
             <p className="mt-1 font-semibold text-emerald-500 dark:text-emerald-400">
-              SDE & Frontend Developer Roles
+              Software Developer & <br/>Frontend Developer Roles
             </p>
           </div>
         </div>
