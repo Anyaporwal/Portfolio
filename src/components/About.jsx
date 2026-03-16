@@ -14,11 +14,11 @@ export function About() {
         <div className="mb-6 flex items-center gap-3">
           <div className="h-8 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent-soft">
+<p className="text-lg font-bold uppercase tracking-[0.2em] text-accent-soft">
               About
             </p>
-            <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-50 sm:text-2xl">
-              A bit about who I am
+<h2 className="text-base font-semibold text-slate-900 dark:text-slate-50 sm:text-base">   
+             A bit about who I am
             </h2>
           </div>
         </div>

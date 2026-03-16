@@ -14,11 +14,12 @@ export function Education() {
         <div className="mb-4 flex items-center gap-3">
           <div className="h-8 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
           <div>
-            <h2 className="text-2xl font-bold uppercase tracking-[0.15em] text-accent-soft">
+            <p className="text-lg font-bold uppercase tracking-[0.2em] text-accent-soft">
+
               Education
-            </h2>
-            <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-50 sm:text-2xl">
-              My Academic Background
+            </p>
+<h2 className="text-base font-semibold text-slate-900 dark:text-slate-50 sm:text-base">
+                My Academic Background
             </h2>
           </div>
         </div>
