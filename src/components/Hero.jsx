@@ -21,7 +21,7 @@ export function Hero() {
     <section
       id="hero"
       ref={ref}
-      className="relative flex min-h-screen items-center justify-center px-6 pt-24"
+      className="relative flex min-h-[85vh] items-center justify-center px-6 pt-16 pb-2"
     >
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-12 lg:flex-row">
 
@@ -70,7 +70,7 @@ export function Hero() {
         </div>
 
         {/* RIGHT PHOTO */}
-        <div className="flex-1 flex justify-center">
+        <div className="flex-1 flex justify-center p-8">
           <div className="relative flex items-center justify-center overflow-visible">
 
             {/* Smaller Card with rich gradient background */}
@@ -85,7 +85,7 @@ export function Hero() {
                     ? "translate-y-0 scale-100 opacity-100 rotate-0"
                     : "translate-y-20 scale-75 opacity-0 rotate-6"
                   } 
-                  hover:-translate-y-2 hover:scale-105 hover:rotate-3`}
+                  `}
               />
 
               {/* Decorative base/glow */}

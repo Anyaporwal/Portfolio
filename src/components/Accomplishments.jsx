@@ -7,16 +7,16 @@ export function Accomplishments() {
     <section
       id="accomplishments"
       ref={ref}
-      className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8"
+      className="relative mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8"
     >
       <div className={`reveal ${isVisible ? 'reveal-visible' : ''}`}>
         {/* Heading */}
         <div className="mb-4 flex items-center gap-3">
           <div className="h-8 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent-soft">
+            <h2 className="text-2xl font-bold uppercase tracking-[0.15em] text-accent-soft">
               Accomplishments
-            </p>
+            </h2>
             <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-50 sm:text-2xl">
               Achievements & Certifications
             </h2>

@@ -27,7 +27,7 @@ export function TechStack() {
     <section
       id="tech"
       ref={ref}
-      className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8"
+      className="relative mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8"
     >
       <div className={`reveal ${isVisible ? "reveal-visible" : ""}`}>
 
@@ -36,7 +36,7 @@ export function TechStack() {
        <div className="mb-6 flex items-center gap-3">
           <div className="h-8 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-accent-soft">
+            <p className="text-xs font-bold uppercase tracking-[0.15em] text-accent-soft">
                 Tech Stack
               </p>
               <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
