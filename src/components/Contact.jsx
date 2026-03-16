@@ -1,6 +1,6 @@
 import { FiGithub, FiLinkedin, FiMail, FiFileText } from 'react-icons/fi';
 import { useScrollReveal } from '../hooks/useScrollReveal';
-import resume from "./Anyaporwal_resume.pdf";
+import resume from "./resume.pdf";
 export function Contact() {
   const { ref, isVisible } = useScrollReveal();
 
