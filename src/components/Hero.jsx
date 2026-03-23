@@ -21,7 +21,7 @@ export function Hero() {
     <section
       id="hero"
       ref={ref}
-      className="relative flex min-h-[85vh] items-center justify-center px-6 pt-16 pb-2"
+      className="relative flex min-h-[85vh] items-center justify-center px-6 pt-16"
     >
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-12 lg:flex-row">
 

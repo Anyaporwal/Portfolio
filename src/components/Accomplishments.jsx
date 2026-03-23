@@ -7,7 +7,7 @@ export function Accomplishments() {
     <section
       id="accomplishments"
       ref={ref}
-      className="relative mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8"
+      className="scroll-mt-20 relative mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8"
     >
       <div className={`reveal ${isVisible ? 'reveal-visible' : ''}`}>
         {/* Heading */}

@@ -2,7 +2,6 @@ import {
   SiGithub,
   SiLeetcode,
   SiHackerrank,
-  SiCodeforces,
   SiCodechef,
   SiGeeksforgeeks
 } from 'react-icons/si';
@@ -22,13 +21,13 @@ const profiles = [
     icon: SiLeetcode,
     color: 'from-amber-400 to-amber-500'
   },
-    {
+  {
     name: 'HackerRank',
     href: 'https://www.hackerrank.com/porwalaa',
     icon: SiHackerrank,
     color: 'from-emerald-400 to-emerald-500'
   },
-    {
+  {
     name: 'GeeksforGeeks',
     href: 'https://www.geeksforgeeks.org/profile/ap5vm',
     icon: SiGeeksforgeeks,
@@ -39,12 +38,6 @@ const profiles = [
     href: 'https://www.codechef.com/users/anyaporwal18',
     icon: SiCodechef,
     color: 'from-orange-400 to-orange-500'
-  },
-  {
-    name: 'Codeforces',
-    href: 'https://codeforces.com/profile/Anyaporwal',
-    icon: SiCodeforces,
-    color: 'from-sky-400 to-sky-500'
   }
 ];
 
@@ -55,24 +48,25 @@ export function CodingProfiles() {
     <section
       id="profiles"
       ref={ref}
-      className="relative mx-auto max-w-6xl px-4 pt-4 pb-20 sm:px-6 lg:px-8"
+      className="scroll-mt-20 relative mx-auto max-w-6xl px-4 py-2 sm:px-6 lg:px-8"
     >
       <div className={`reveal ${isVisible ? 'reveal-visible' : ''}`}>
-        <div className="mb-6 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <div className="h-8 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
-            <div>
+        
+        {/* Heading */}
+        <div className="mb-5 flex items-center gap-3">
+          <div className="h-7 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
+          <div>
 <p className="text-lg font-bold uppercase tracking-[0.2em] text-accent-soft">
-                Coding profiles
-              </p>
+              Coding Profiles
+            </p>
 <h2 className="text-base font-semibold text-slate-900 dark:text-slate-50 sm:text-base">   
-                Where I solve problems
-              </h2>
-            </div>
+              Where I solve problems
+            </h2>
           </div>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">          
+        {/* Profiles Grid */}
+        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {profiles.map((profile) => {
             const Icon = profile.icon;
 
@@ -82,27 +76,32 @@ export function CodingProfiles() {
                 href={profile.href}
                 target="_blank"
                 rel="noreferrer"
-                className="tilt-card group flex items-center gap-2 rounded-xl border border-slate-200 bg-white/90 px-3 py-2 text-xs text-slate-700 shadow-md shadow-slate-200/80 transition hover:border-accent hover:shadow-glow-accent dark:border-slate-800 dark:bg-slate-950/70 dark:text-slate-200 dark:shadow-slate-950/70"
+                className="tilt-card group flex items-center gap-3 rounded-xl border border-slate-200 bg-white/90 px-4 py-3 text-sm text-slate-700 shadow-md shadow-slate-200/80 transition-all duration-200 hover:scale-[1.04] hover:border-accent hover:shadow-glow-accent dark:border-slate-800 dark:bg-slate-950/70 dark:text-slate-200 dark:shadow-slate-950/70"
               >
-                <div className="icon-pop relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-900/80">
+                
+                {/* Icon */}
+                <div className="relative flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-900/80">
                   <div
                     className={`absolute inset-0 bg-gradient-to-tr ${profile.color} opacity-70 transition group-hover:opacity-100`}
                   />
-                  <Icon className="relative h-5 w-5 text-slate-950" />
+                  <Icon className="relative h-6 w-6 text-slate-950" />
                 </div>
 
+                {/* Text */}
                 <div>
-                  <p className="text-[13px] font-semibold text-slate-50">
+                  <p className="text-sm font-semibold text-slate-900 dark:text-slate-50">
                     {profile.name}
                   </p>
-                  <p className="text-[11px] text-slate-400 group-hover:text-slate-300">
-                    Click to view profile
+                  <p className="text-xs text-slate-500 group-hover:text-slate-300">
+                    View profile
                   </p>
                 </div>
+
               </a>
             );
           })}
         </div>
+
       </div>
     </section>
   );

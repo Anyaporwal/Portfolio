@@ -7,7 +7,7 @@ export function About() {
     <section
       id="about"
       ref={ref}
-      className="relative mx-auto max-w-6xl px-4 pb-4 sm:px-6 lg:px-8"
+      className="scroll-mt-20 relative mx-auto max-w-6xl px-4 py-2 sm:px-6 lg:px-8"
     >
       <div className={`reveal ${isVisible ? 'reveal-visible' : ''}`}>
         {/* Heading */}
@@ -66,7 +66,7 @@ export function About() {
               Location
             </p>
             <p className="mt-1 font-semibold text-slate-900 dark:text-slate-100">
-              Nagpur, Maharashtra, India (Remote friendly)
+              Nagpur, Maharashtra, India
             </p>
           </div>
 

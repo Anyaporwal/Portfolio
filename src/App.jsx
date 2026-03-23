@@ -65,7 +65,7 @@ function App() {
       <div className="md:cursor-none">
         <Navbar theme={theme} onToggleTheme={toggleTheme} />
 
-        <main className="space-y-2 pt-2">
+        <main className="space-y-1 pt-2">
           <Hero />
           <About />
           <Education />
