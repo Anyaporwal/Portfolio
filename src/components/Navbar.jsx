@@ -7,6 +7,7 @@ const sections = [
   { id: 'about', label: 'About' },
   { id: 'education', label: 'Education' },
   {id : 'accomplishments' , label :'Accomplishments'},
+  { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'contact', label: 'Contact' }
 ];
@@ -43,19 +44,18 @@ export function Navbar({ theme, onToggleTheme }) {
   return (
     <header className="fixed inset-x-0 top-0 z-40 border-b border-slate-200/80 bg-white/80 backdrop-blur-md dark:border-slate-800/80 dark:bg-slate-900/80 transition-colors">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        
         <button
           type="button"
           onClick={() => handleNavClick('hero')}
-          className="group flex items-center gap-2"
+          className="group"
         >
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-accent to-accent-soft text-xs font-semibold tracking-wide text-slate-50 shadow-glow-accent group-hover:scale-105 group-hover:shadow-glow-accent transition-transform">
-            AP
-          </div>
-          <div className="text-left">
-            <p className="text-sm font-semibold text-slate-900 dark:text-slate-50">
-              Anya Porwal
-            </p>
-          </div>
+        <p
+          className="text-xl md:text-3xl font-bold text-accent tracking-wide drop-shadow-md transition group-hover:scale-105"
+          style={{ fontFamily: "'Allura', cursive" }}
+        >
+          Anya
+        </p>
         </button>
 
         <div className="flex items-center gap-4">

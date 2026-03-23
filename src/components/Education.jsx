@@ -10,24 +10,32 @@ export function Education() {
       className="scroll-mt-20 relative mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8"
     >
       <div className={`reveal ${isVisible ? 'reveal-visible' : ''}`}>
+        
         {/* Heading */}
         <div className="mb-4 flex items-center gap-3">
           <div className="h-8 w-1 rounded-full bg-gradient-to-b from-accent to-accent-soft" />
           <div>
             <p className="text-lg font-bold uppercase tracking-[0.2em] text-accent-soft">
-
               Education
             </p>
-<h2 className="text-base font-semibold text-slate-900 dark:text-slate-50 sm:text-base">
-                My Academic Background
+            <h2 className="text-base font-semibold text-slate-900 dark:text-slate-50 sm:text-base">
+              My Academic Background
             </h2>
           </div>
         </div>
 
-        {/* Academic Details */}
+        {/* Academic Cards */}
         <div className="space-y-6">
+
           {/* B.Tech */}
-          <div className="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-lg shadow-slate-200/80 dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70">
+          <div
+            className="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-lg shadow-slate-200/80 
+            dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70
+            transition-all duration-500 ease-out
+            hover:-translate-y-2 hover:shadow-xl hover:shadow-accent/20
+            animate-fadeUp"
+            style={{ animationDelay: '0.1s' }}
+          >
             <p className="text-base font-semibold text-slate-900 dark:text-slate-100">
               B.Tech in Computer Science & Engineering (Data Science)
             </p>
@@ -40,7 +48,14 @@ export function Education() {
           </div>
 
           {/* HSC */}
-          <div className="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-lg shadow-slate-200/80 dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70">
+          <div
+            className="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-lg shadow-slate-200/80 
+            dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70
+            transition-all duration-500 ease-out
+            hover:-translate-y-2 hover:shadow-xl hover:shadow-accent/20
+            animate-fadeUp"
+            style={{ animationDelay: '0.2s' }}
+          >
             <p className="text-base font-semibold text-slate-900 dark:text-slate-100">
               HSC – Higher Secondary Certificate
             </p>
@@ -50,7 +65,14 @@ export function Education() {
           </div>
 
           {/* SSC */}
-          <div className="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-lg shadow-slate-200/80 dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70">
+          <div
+            className="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-lg shadow-slate-200/80 
+            dark:border-slate-800 dark:bg-slate-900/70 dark:shadow-slate-950/70
+            transition-all duration-500 ease-out
+            hover:-translate-y-2 hover:shadow-xl hover:shadow-accent/20
+            animate-fadeUp"
+            style={{ animationDelay: '0.3s' }}
+          >
             <p className="text-base font-semibold text-slate-900 dark:text-slate-100">
               SSC – Secondary School Certificate
             </p>
@@ -58,6 +80,7 @@ export function Education() {
               Bhavan's B.P Vidya Mandir (B.V.M Ashti), Nagpur • 2021
             </p>
           </div>
+
         </div>
       </div>
     </section>
