@@ -7,23 +7,22 @@ title: "CrimeGuard",
 category: "AI / Full Stack",
 description:
 "Built an AI-powered Crime Hotspot Prediction and Safety Analytics System using DBSCAN clustering to identify crime-prone regions from geospatial datasets. Implemented safest-route recommendation using OSRM API with hotspot-based risk scoring, real-time alerts, incident reporting, authentication, women safety SOS, and GeoJSON-based visual analytics.",
-github: "https://github.com/your-github/crimeguard",
+github: "https://github.com/Anyaporwal/MiniProject_6th",
 stack: [
 "React.js",
 "FastAPI",
 "Python",
 "Machine Learning",
-"DBSCAN",
-"OSRM API",
+"DBSCAN"
 ],
-year: "2025",
+year: "2026",
 },
 {
 title: "RCOEM Question Bank System",
 category: "Full Stack",
 description:
 "Developed a centralized MERN platform for managing academic question repositories. Automated PDF parsing, data extraction, and AI-based subject classification. Integrated semantic AI-powered search, analytics-based filtering, JWT authentication, and a responsive admin dashboard for dynamic content management.",
-github: "https://github.com/your-github/question-bank-system",
+github: "https://github.com/Anyaporwal/RCOEM_RBU_Question_Bank",
 stack: [
 "MongoDB",
 "Express.js",
@@ -39,26 +38,25 @@ title: "E-Commerce Product Review Intelligence System",
 category: "Machine Learning / NLP",
 description:
 "Developed an end-to-end NLP analytics system to analyze Amazon product reviews and generate actionable business insights. Implemented VADER sentiment analysis and TF-IDF with Logistic Regression classification. Built an interactive Streamlit dashboard for sentiment trends, product performance, and customer insights.",
-demo: "https://review-intelligence-demo.vercel.app",
-github: "https://github.com/your-github/review-intelligence",
+demo: "https://e-comproreviewai.streamlit.app/",
+github: "https://github.com/Anyaporwal/E-Commerce_Product_Review_Intelligence_System",
 stack: [
 "Python",
 "NLP",
 "Machine Learning",
 "Streamlit",
 "TF-IDF",
-"Logistic Regression",
 ],
-year: "2024",
+year: "2026",
 },
 {
 title: "Car Sales Analytics Dashboard",
 category: "Data Analytics",
 description:
 "Developed an interactive Power BI dashboard to analyze sales performance, revenue trends, and customer purchasing patterns across multiple car brands. Performed data cleaning and transformation using SQL and Excel, designed KPI dashboards, and generated actionable insights through trend analysis and reporting.",
-github: "https://github.com/your-github/car-sales-dashboard",
+github: "https://github.com/Anyaporwal/Car_Sales_Analytics_Dashboard",
 stack: ["Power BI", "SQL", "Excel", "Data Analysis", "Dashboarding"],
-year: "2024",
+year: "2025",
 },
 ];
 
