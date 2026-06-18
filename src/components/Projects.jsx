@@ -7,7 +7,7 @@ title: "CrimeGuard",
 category: "AI / Full Stack",
 description:
 "Built an AI-powered Crime Hotspot Prediction and Safety Analytics System using DBSCAN clustering to identify crime-prone regions from geospatial datasets. Implemented safest-route recommendation using OSRM API with hotspot-based risk scoring, real-time alerts, incident reporting, authentication, women safety SOS, and GeoJSON-based visual analytics.",
-github: "https://github.com/Anyaporwal/MiniProject_6th",
+github: "https://github.com/Anyaporwal/MiniProject_6th_sem",
 stack: [
 "React.js",
 "FastAPI",
