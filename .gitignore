@@ -1,5 +1,4 @@
-README.md
-src/components/profile.png
-src/components/resume.pdf
-node_modules
-dist
+node_modules/
+dist/
+.env
+.env.local
