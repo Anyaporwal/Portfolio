@@ -144,9 +144,16 @@ export function Projects() {
                     {project.title}
                   </h3>
 
-                  <span className="rounded-full bg-accent/10 px-2 py-1 text-[10px] font-semibold text-accent">
-                    {project.category}
-                  </span>
+                  <div className="flex flex-wrap justify-end gap-1">
+                    {project.category.map((cat) => (
+                    <span
+                      key={cat}
+                      className="rounded-full bg-accent/10 px-2 py-1 text-[10px] font-semibold text-accent"
+                    >
+                      {cat}
+                    </span>
+                  ))}
+                </div>
                 </div>
 
                 

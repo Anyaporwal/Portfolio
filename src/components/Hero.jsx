@@ -31,13 +31,13 @@ export function Hero() {
             <TypeAnimation
               sequence={[
                 "Hi, I'm Anya Porwal",
-                2200,
+                2500,
                 "Hi, I'm a Data Science Student",
-                2000,
+                2500,
                 "Hi, I'm a Frontend Developer",
-                2200,
+                2500,
                 "Hi, I'm an Aspiring Software Developer",
-                2000,
+                2500,
               ]}
               speed={50}
               repeat={Infinity}

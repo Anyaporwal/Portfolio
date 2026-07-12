@@ -86,8 +86,11 @@ export function About() {
               Focus
             </p>
             <p className="mt-1 font-semibold text-slate-900 dark:text-slate-100">
-              Full Stack Development & DSA
-            </p>
+              <p>• Software Engineering</p>
+                <p>• Scalable AI-Powered Full-Stack Systems</p>
+                <p>• Clean, Efficient & Maintainable Code</p>
+                <p>• Data Structures & Algorithms (DSA)</p>
+           </p>
           </div>
 
           <div className="rounded-2xl border border-slate-200 bg-white/90 p-3 shadow-sm shadow-slate-200/80 
@@ -99,16 +102,27 @@ export function About() {
             <p className="mt-1 font-semibold text-slate-900 dark:text-slate-100">
               Nagpur, Maharashtra, India
             </p>
+            <br />
+            <p className="text-[12px] font-medium text-slate-500 dark:text-slate-400">
+              Work Preference
+            </p>
+            <p className="mt-1 font-semibold text-slate-900 dark:text-slate-100">
+              Remote • Hybrid • Open to Relocation 🌍            
+              </p>
           </div>
-
+          
           <div className="rounded-2xl border border-slate-200 bg-white/90 p-3 shadow-sm shadow-slate-200/80 
           dark:border-slate-800 dark:bg-slate-900/60 dark:shadow-slate-950/70
           transition-all duration-300 hover:scale-105 hover:shadow-md hover:shadow-accent/20">
             <p className="text-[12px] font-medium text-slate-500 dark:text-slate-400">
               Open to
             </p>
-            <p className="mt-1 font-semibold text-emerald-500 dark:text-emerald-400">
-              Software Developer & <br /> Frontend Developer Roles
+            <p className="mt-1 font-semibold text-emerald-400 dark:text-emerald-400">
+              <p>• Software Developer</p>
+              <p>• Full-Stack Developer</p>
+              <p>• Frontend Developer</p>
+              <p>• Data Analyst</p>
+
             </p>
           </div>
         </div>
