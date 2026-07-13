@@ -32,6 +32,38 @@ const projects = [
       "JWT",
       "AI Search",
     ],
+    year: "2026 - Present",
+  },
+  {
+  title: "Flight Management System",
+  category: ["Full Stack"],
+  description:
+    "Built a full-stack Flight Management System with React, Spring Boot, MySQL, and Docker, implementing Create, Read, Search, and Delete operations, RESTful APIs, JPA/Hibernate integration, Axios-based frontend communication, and JUnit testing.Practice project developed to strengthen Spring Boot CRUD operations and REST API development. ",
+  github: "https://github.com/Anyaporwal/Flight_Management_System",
+  stack: [
+    "Spring Boot",
+    "Java",
+    "React.js",
+    "MySQL",
+    "Hibernate",
+    "Docker"
+  ],
+  year: "2026",
+  },
+      {
+    title: "Library Search Lite",
+    category: ["Frontend"],
+    description:
+      "Built a responsive book discovery web application with real-time search, smart filtering, persistent bookmarking using Local Storage, dark mode, keyboard accessibility, live statistics, and a mobile-first UI. Implemented instant search by title or author, bookmark management, responsive layouts, and accessibility-focused interactions.",
+    demo: "https://librarysearchlitee.netlify.app/",
+    github: "https://github.com/Anyaporwal/LibrarySearchLite",
+    stack: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Local Storage",
+      "Responsive Design"
+    ],
     year: "2025",
   },
   {
